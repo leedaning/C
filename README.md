@@ -1,5 +1,5 @@
 
-CÓïÑÔÑ§Ï°¹ı³Ì
+C progrom learn
 
 
 #create a new repository on the command line
