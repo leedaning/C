@@ -23,5 +23,4 @@ void main(void){
     least_common_multiple = greatest_common_divisor * max * min;
 
     printf("\n最大公约数为：%d, 最小公倍数为：%d", greatest_common_divisor, least_common_multiple );
-    
 }
