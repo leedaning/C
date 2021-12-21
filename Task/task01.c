@@ -54,5 +54,4 @@ struct res divisorMultiple(int num_01, int num_02){
     printf("½á¹ûmax_num=%d, min_num=%d\n", data.max_divisor, data.min_multiple);
     
     return data;
-
 }
