@@ -9,15 +9,17 @@
  * 
  */
 #include <stdio.h>
+#include "header.h"
 #include "common.h"
-
-/* extern int maxNum(int a, int b);
-extern int minNum(int a, int b); */
 
 int main(int argv, char const * argc[]){
 
-    int a = 10, b = 12;     // TODO
-    printf("a = %d, b = %d, max is %d, min is %d\n", a, b, maxNum(a, b), minNum(a, b));
-    
+    int a = 10, b = 12;     // TODO:
+    struct student John;
+    John.name = "Johns";
+    John.age = 18;
+    printf("a = %d, b = %d, max is %d, number is %d, min is %d\n", a, b, number, maxNum(a, number), minNum(a, b));
+    printf("Student name is %s, age is %d\n", John.name, John.age);
+    getchar();
     return 0;
 }

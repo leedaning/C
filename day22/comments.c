@@ -1,5 +1,5 @@
 /**
- * @file common.h
+ * @file comments.c
  * @author your name (you@domain.com)
  * @brief 
  * @version 0.1
@@ -9,9 +9,6 @@
  * 
  */
 
-#ifndef _COMMON_H
-
-#define _COMMON_H
-#include "header.h"
-
-#endif
+int main(int argv, char const * argc[]){
+    return 0;
+}

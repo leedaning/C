@@ -6,14 +6,14 @@
  * @date 2022-02-08
  * 
  * @copyright Copyright (c) 2022
- * 
  */
-#include "common.h"
+#include "header.h"
+int number = 20;        // 定义全局变量number，并赋值为20
 
-extern int maxNum(int a, int b){
+int maxNum(int a, int b){
     return a > b ? a : b;
 }
 
-extern int minNum(int a, int b){
+int minNum(int a, int b){
     return a > b ? b : a;
 }
